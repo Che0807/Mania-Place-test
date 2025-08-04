@@ -22,4 +22,4 @@ spring:
 
 jwt:
   secret:
-    key: ${SECRET_KEY}
+    key: 7b4b2adee30710c60625c93a6bbc433e456e3d8e2a5489d655249d5262c7a1fec010662cfee5073ca66c6658a9fc823805240958bec415b9cdf27103dde5fa39
