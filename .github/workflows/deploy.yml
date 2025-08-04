@@ -2,7 +2,7 @@ name: CI/CD Deploy
 
 on:
   push:
-    branches: [ master ]  
+    branches: [ master ]
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app
-          path: build/libs/mania_place-[0-9.]*-SNAPSHOT.jar
+          path: build/libs/mania-place-test[0-9.]*-SNAPSHOT.jar
 
   deploy:
     needs: build
